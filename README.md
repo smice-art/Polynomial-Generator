@@ -47,11 +47,11 @@ These sliders stop lines from becoming jagged or crossing over ("jumps").
 ## Views
 | Image | Preview | Impression |
 | :--- | :--- | :--- |
-| <img src="images/P00.jpg" width="250"> | <img src="images/P02.jpg" width="250"> | <img src="images/P05.jpg" width="250"> |
+| <img src="images/P00.jpg" width="250"> | <img src="images/P02.jpg" width="250"> | <img src="images/P15.jpg" width="250"> |
 | <img src="images/P09.jpg" width="250"> | <img src="images/P03.jpg" width="250"> | <img src="images/P17.jpg" width="250"> |
 | <img src="images/P06.jpg" width="250"> | <img src="images/P07.jpg" width="250"> | <img src="images/P18.jpg" width="250"> |
-| <img src="images/P12.jpg" width="250"> | <img src="images/P14.jpg" width="250"> | <img src="images/P10.jpg" width="250"> |
-| <img src="images/P15.jpg" width="250"> | <img src="images/P16.jpg" width="250"> | <img src="images/P04.jpg" width="250"> | 
+| <img src="images/P12.jpg" width="250"> | <img src="images/P14.jpg" width="250"> | <img src="images/P16.jpg" width="250"> |
+| <img src="images/P05.jpg" width="250"> | <img src="images/P10.jpg" width="250"> | <img src="images/P04.jpg" width="250"> | 
 
 ## Release Notes
 
