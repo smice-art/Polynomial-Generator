@@ -6,7 +6,7 @@
 Polynomial Art Studio
 
 # Info ⚠️
-Please excuse me regarding the correct mathematical terms; I am unfortunately not a mathematician, so they are sometimes certainly not correct.
+Please excuse me regarding the correct mathematical terms; I am unfortunately not a mathematician, so they are sometimes certainly not correct. To use this "pre-addon" just paste it in the Blender Script Editor and Run. Adjustments as usual in the certain N-Panel.
 
 # Screen Shot
 ![Banner Image](images/screen.jpg)
