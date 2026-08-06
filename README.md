@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/addon.jpg" alt="K-Noid Generator width="100%">
+  <img src="images/pre-addon.jpg" alt="Polynome Generator width="100%">
 </p>
 
 # Polynomial Generator
