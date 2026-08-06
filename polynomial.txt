@@ -1,0 +1,39 @@
+=======================================================
+📖 POLY ART STUDIO - QUICK REFERENCE HANDBOOK
+=======================================================
+
+--- 1. THE CORE GEOMETRY (The "What") ---
+* Pattern: Selects the mathematical formula (S2 = Sheet 2, F1/F4 = Original).
+* Degree (N-Roots): CRITICAL! Must align with the pattern.
+   -> Set to 3 for all S2 (Sheet 2) patterns.
+   -> Set to 6 for F4 (Orbital Ring).
+   -> Set to 8 for F1 (Original 5-Fold).
+   
+* Coefficients (C8/C5 R & I): Custom number injections to mutate shapes.
+
+   -> ONLY active for F1 and F4. 
+   -> You must make massive changes (e.g., 200 or -500) to see effects.
+
+--- 2. THE TRACKING ENGINE (The "How") ---
+These sliders stop lines from becoming jagged or crossing over ("jumps").
+* Max Jump: Global speed limit for line travel between points.
+   -> High (8.0 - 10.0): For wide, sweeping loops (like F4).
+   -> Low (0.5 - 0.8): For tight, disconnected masks (like S2_R1_1).
+
+* Points (t1): Resolution of the line. Increase to 600-800 if jumps persist.
+* Dual-Zone Stabilizer: Safety net when high Max Jump ruins the center.
+   -> Inner Zone: Size of the "safe zone" around the origin (1.0 - 2.0).
+   -> Strictness: Multiplier for jumps inside the zone (e.g., 0.2 reduces jump limit to 20% in the center).
+
+--- 3. 3D FORM & VISUALS (The "Look") ---
+* Layers (t2): Number of stacked rings creating depth.
+* Z-Spread: Distance between layers on the Z-axis.
+* Thickness: Physical thickness of the curve bevel.
+* Spline Type:
+   -> Poly: Jagged, straight lines (fastest, good for debugging).
+   -> NURBS: Extremely smooth, pulls like a rubber band. (Best for florals).
+   -> Bezier: Perfectly smooth, exact coordinates. (Best for Sheet 2 geometric shapes).
+=======================================================
+
+
+🧠 The Golden Rule for the c ArrayWhen you are adding your own formulas, the only slightly tricky part is translating the written math into that c list. The script expects the coefficients in descending order of the $x$ powers:c[0] is always the coefficient for the highest power (e.g., $x^3$ or $x^6$).c[nv] is always the constant at the very end of the equation (the part without any $x$ attached).c[nv-1] is the coefficient for $x$.c[nv-2] is the coefficient for $x^2$.As long as you map your new math to those slots, the engine will handle all the 3D generation, the dual-zone stabilization, and the rainbow coloring completely automatically!
