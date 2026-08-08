@@ -3,7 +3,7 @@
 </p>
 
 # Polynomial Generator
-Polynomial Art Studio
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Oswald&weight=500&pause=1000&color=113D50&width=435&lines=This+is+a+cool+tool%2C+I+called+it+%22Polynomial+Art+Studio%22)](https://git.io/typing-svg)
 
 # Info ⚠️
 Please excuse me regarding the correct mathematical terms; I am unfortunately not a mathematician, so they are sometimes certainly not correct. To use this "pre-addon" just paste it in the Blender Script Editor and Run. Adjustments as usual in the certain N-Panel.
